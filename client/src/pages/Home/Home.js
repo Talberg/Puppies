@@ -8,6 +8,8 @@ import Pictures from '../../components/Pictures/Pictures'
 import WebPageHolder from '../../components/WebPageHolder/WebPageHolder'
 import PassGen from '../../components/PassGen/PassGen'
 import NatPark from '../../components/NatPark/NatPark'
+import SupportUs from '../../components/SupportUs/About'
+import Donate from '../../components/Donate/About'
 function Home(props) {
 
   
@@ -15,9 +17,11 @@ function Home(props) {
     return (
     <div className='BG'>
        <About></About>
+       <Donate></Donate>
        <WebPageHolder></WebPageHolder>
-       <PassGen></PassGen>
-       <NatPark></NatPark>
+       <SupportUs></SupportUs>
+       
+       
 
        
 
